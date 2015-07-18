@@ -1,0 +1,12 @@
+{application, aws,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { aws_app, []}},
+  {env, []}
+ ]}.
